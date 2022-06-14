@@ -1,4 +1,10 @@
-## Instalation
+# Instalation
+
+
+
+
+### [Download](https://github.com/patarakaci/Upload.Drive.Api/releases/download/curl-v1.0/bash_driver_api.tar.gz) bash scripts and follow guide!
+---
 
 - Choose Credentials -> Create Project
 ![Choose Credentials -> Create Project](./README/1.png)
@@ -43,16 +49,16 @@
 ---
 # Usage
 - run firstly main_api_upload.sh script.
-    ```
-    $ bash /path/main_api_upload.sh
+    ```bash
+    bash /path/main_api_upload.sh
     ```
 - input Client ID and Client Secret
 
     ![script](./README/12.png) 
 - visit [Google device link](https://www.google.com/device) and input User Code which is outputed by script
 - command to make cronjob
-    ```
-    $ crontab -e
+    ```bash
+    crontab -e
     ``` 
 - then write bellow command to crontab for refresh token in every 15 minuntes!
     ```
