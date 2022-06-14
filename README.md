@@ -37,7 +37,8 @@
 
 
 - Choose Credentials -> Create Credentials -> OAuth client ID -> choose "TVs and Limited Input Devices" -> Create
-![Choose Credentials -> Create Credentials -> OAuth client ID -> choose "TVs and Limited Input Devices" -> Create](./README/8.png)
+
+    ![Choose Credentials -> Create Credentials -> OAuth client ID -> choose "TVs and Limited Input Devices" -> Create](./README/8.png)
 
 - On same [link](https://console.developers.google.com/) Choose Enabled APIs and Services -> ENABLE APIS AND SERVICES
 ![Drive API](./README/10.png)
