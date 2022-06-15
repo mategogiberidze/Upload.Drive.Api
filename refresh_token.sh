@@ -11,5 +11,6 @@ REFRESH=`curl -L -X POST "https://www.googleapis.com/oauth2/v4/token?client_id="
 echo $REFRESH
 
 echo $ACCESS_TOKEN > /tmp/token.txt
+echo $REFRESH_TOKEN > /tmp/refresh_token.txt
 echo $CLIENT_ID > /tmp/client_id.txt
 echo $CLIENT_SECRET > /tmp/client_secret.txt
