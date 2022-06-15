@@ -41,6 +41,6 @@ echo -e "\n access_token: $ACCESS_TOKEN"
 ### Save Access Token
 echo $ACCESS_TOKEN > /tmp/token.txt
 ### Save Refresh Token
-echo $REFRESH_TOKEN > /tmp/refreshh_token.txt
+echo $REFRESH_TOKEN > /tmp/refresh_token.txt
 
 
