@@ -1,9 +1,5 @@
 #!/bin/bash
 
-OUTPUT_NAME_GZ=test.zip
-OUTPUT_FILE=backup.zip
-
-
 ### Enter Client ID & Secret
 read -p "Please enter client_id: " CLIENT_ID
 read -p "Please enter client_secret: " CLIENT_SECRET
@@ -45,7 +41,7 @@ echo -e "\n access_token: $ACCESS_TOKEN"
 ### Save Access Token
 echo $ACCESS_TOKEN > /tmp/token.txt
 ### Save Refresh Token
-echo $REFRESH_TOKEN > /tmp/refresh_token.txt
+echo $REFRESH_TOKEN > /tmp/refreshh_token.txt
 
 curl -X POST -L -H "Authorization: Bearer "$ACCESS_TOKEN""  -F 'metadata={name : "'"$OUTPUT_NAME_GZ"'"};type=application/json;charset=UTF-8' -F "file=@$OUTPUT_FILE;type=application/zip" "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart"
 
