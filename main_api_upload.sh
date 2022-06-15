@@ -43,5 +43,4 @@ echo $ACCESS_TOKEN > /tmp/token.txt
 ### Save Refresh Token
 echo $REFRESH_TOKEN > /tmp/refreshh_token.txt
 
-curl -X POST -L -H "Authorization: Bearer "$ACCESS_TOKEN""  -F 'metadata={name : "'"$OUTPUT_NAME_GZ"'"};type=application/json;charset=UTF-8' -F "file=@$OUTPUT_FILE;type=application/zip" "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart"
 
